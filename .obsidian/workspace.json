@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5c23521a20c9a68b",
+        "id": "e65d09f9a14b0726",
         "type": "tabs",
         "children": [
           {
-            "id": "e24bba1fdd3da1e4",
+            "id": "cba09fe24712bc2e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Shell/Server-Inspection.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,8 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Shell/Server-Inspection.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -102,8 +97,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Shell/Server-Inspection.md",
-                "linksCollapsed": false,
+                "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -124,12 +118,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Shell/Server-Inspection.md"
-              }
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -146,14 +139,21 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e24bba1fdd3da1e4",
+  "active": "cba09fe24712bc2e",
   "lastOpenFiles": [
+    "Jenkins/php-jenkins.md",
+    "Nginx/Java 项目的配置文件.md",
+    "Nginx/Php 项目的配置文件.md",
+    "Nginx/Vue 项目的配置文件.md",
+    "README.md",
     "Nginx/不同项目的nginx配置文件.md",
-    "Supervisord",
+    "Kubernetes",
     "Shell/Server-Inspection.md",
     "Jenkins/java-jenkins.md",
+    "未命名.canvas",
+    "2023-12-21.md",
+    "Supervisord",
     "Jenkins/vue-jenkins.md",
-    "Jenkins/php-jenkins.md",
     "Nginx/不同项目的nginx配置文件.mdx",
     "Nginx",
     "Jenkins/vue-jenkins.mdx",
@@ -161,9 +161,6 @@
     "Jenkins/java-jenkins.mdx",
     "Jenkins",
     "supervisord",
-    "Shell/Server-Inspection.sh",
-    "Shell",
-    "README.md",
-    "2023-12-21.md"
+    "Shell/Server-Inspection.sh"
   ]
 }
