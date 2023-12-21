@@ -15,11 +15,25 @@ server {
         fastcgi_param   SCRIPT_FILENAME     $document_root$fastcgi_script_name;
         include         fastcgi_params;
     }
-    
+
+	location ~ ^/(api|admin/api) {
+		root    /data/xxx/xxx/web;
+		index   index.php;
+		try_files    $uri  $uri/  /index.php$is_args$args;
+	}
+
     location / {
         root    /data/xxx/xxx/web；
         index   index.php;
         try_files   $uri $uri/ /index.php?$query_string;
     }
+}
+```
+
+## Php 文件挂载
+
+```nginx config
+location /attaches/file {
+	alias    /data/attaches/[php-project-name]
 }
 ```

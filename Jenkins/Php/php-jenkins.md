@@ -1,5 +1,7 @@
 # php 项目 jenkins 配置脚本编写
 
+## 基础配置
+
 ```bash
 #!/bin/bash -ilex
 SERVER="[target IP]" # or SERVER=(target IP1, target IP2)
@@ -21,4 +23,10 @@ elif [[ $METHOD == "rollback" ]]; then
 	echo "准备回滚..."
 	ansible ${SERVER} -m shell -a "if [[ -d ${DIR}/releases/${JOB_NAME}/${ROLLBACK_VERSION} ]];then ln -sfn ${DIR}/releases/${JOB_NAME}/${ROLLBACK_VERSION} ${DIR}/content/${JOB_NAME}&& echo "已回滚至版本${ROLLBACK_VERSION}";else echo 'folder is not exist';fi" -u nginx
 fi
+```
+
+## Php 文件挂载
+
+```shell
+ansible ${SERVER} -m file -a "src=/data/attaches/yunying-paizhao dest=${DIR}/${JOB_NAME}/storage/attaches state=link" -u nginx
 ```

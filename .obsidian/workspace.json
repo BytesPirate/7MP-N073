@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "e65d09f9a14b0726",
+        "id": "098c0c3e79e5d04f",
         "type": "tabs",
         "children": [
           {
-            "id": "cba09fe24712bc2e",
+            "id": "8cec1fb2cdc670a7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Shell/Server-Inspection.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,10 +85,11 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Shell/Server-Inspection.md",
                 "collapseAll": true,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Shell/Server-Inspection.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -118,11 +124,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Shell/Server-Inspection.md"
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -139,28 +147,32 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "cba09fe24712bc2e",
+  "active": "8cec1fb2cdc670a7",
   "lastOpenFiles": [
-    "Jenkins/php-jenkins.md",
-    "Nginx/Java 项目的配置文件.md",
-    "Nginx/Php 项目的配置文件.md",
-    "Nginx/Vue 项目的配置文件.md",
+    "Nginx/Java/Java 项目的配置文件.md",
+    "Nginx/Basic/Nginx 本身配置文件.md",
+    "Nginx/Basic",
+    "Shell/Server-Inspection.md",
+    "Rust/3/0x01 常见编程概念.md",
+    "Rust/3",
+    "Jenkins/Vue",
+    "Jenkins/Php",
+    "Jenkins/Java",
+    "Nginx/Vue",
+    "Nginx/Java",
+    "Nginx/Php",
+    "Jenkins/清除 Jenkins 旧构建.md",
+    "Rust",
+    "Jenkins/Php/php-jenkins.md",
+    "Jenkins/Java/java-jenkins.md",
+    "未命名.canvas",
+    "Nginx/Php/Php 项目的配置文件.md",
+    "Nginx/Vue/Vue 项目的配置文件.md",
+    "未命名.md",
+    "Jenkins/Vue/vue-jenkins.md",
+    "Zabbix",
     "README.md",
     "Nginx/不同项目的nginx配置文件.md",
-    "Kubernetes",
-    "Shell/Server-Inspection.md",
-    "Jenkins/java-jenkins.md",
-    "未命名.canvas",
-    "2023-12-21.md",
-    "Supervisord",
-    "Jenkins/vue-jenkins.md",
-    "Nginx/不同项目的nginx配置文件.mdx",
-    "Nginx",
-    "Jenkins/vue-jenkins.mdx",
-    "Jenkins/php-jenkins.mdx",
-    "Jenkins/java-jenkins.mdx",
-    "Jenkins",
-    "supervisord",
-    "Shell/Server-Inspection.sh"
+    "2023-12-21.md"
   ]
 }
