@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "098c0c3e79e5d04f",
+        "id": "02ad8ed50b630f8c",
         "type": "tabs",
         "children": [
           {
-            "id": "8cec1fb2cdc670a7",
+            "id": "de7234cd27135174",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Shell/Server-Inspection.md",
+                "file": "Code Aesthetic/$1 在代码中取名.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Shell/Server-Inspection.md",
+                "file": "Code Aesthetic/$1 在代码中取名.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,9 +102,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Shell/Server-Inspection.md",
-                "linksCollapsed": true,
-                "unlinkedCollapsed": true
+                "file": "Code Aesthetic/$1 在代码中取名.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -125,12 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Shell/Server-Inspection.md"
+                "file": "Code Aesthetic/$1 在代码中取名.md"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -147,30 +147,40 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8cec1fb2cdc670a7",
+  "active": "de7234cd27135174",
   "lastOpenFiles": [
+    "Pasted image 20231227092509.png",
+    "Code Aesthetic/$1 在代码中取名.md",
+    "Code Aesthetic/$2 组合优于继承.md",
+    "Code Aesthetic",
+    "Nginx/Php/Php 项目的配置文件.md",
+    "项目部署清单/代码部署/后端代码（Php）部署.md",
+    "项目部署清单/代码部署/后端代码（Java）部署.md",
     "Nginx/Java/Java 项目的配置文件.md",
+    "().md",
     "Nginx/Basic/Nginx 本身配置文件.md",
-    "Nginx/Basic",
+    "项目部署清单/代码部署/前端代码部署.md",
+    "项目部署清单/checklist.md",
+    "项目部署清单/服务器初始化清单.md",
+    "项目部署清单/代码部署/未命名",
+    "项目部署清单/代码部署",
+    "项目部署清单",
+    "Mysql/Sql_mode 配置解析.md",
     "Shell/Server-Inspection.md",
+    "Grafana",
+    "Prometheus",
+    "OS",
+    "MongoDB",
+    "Nodejs",
+    "Elastic",
     "Rust/3/0x01 常见编程概念.md",
-    "Rust/3",
-    "Jenkins/Vue",
-    "Jenkins/Php",
-    "Jenkins/Java",
-    "Nginx/Vue",
-    "Nginx/Java",
-    "Nginx/Php",
     "Jenkins/清除 Jenkins 旧构建.md",
-    "Rust",
     "Jenkins/Php/php-jenkins.md",
     "Jenkins/Java/java-jenkins.md",
     "未命名.canvas",
-    "Nginx/Php/Php 项目的配置文件.md",
     "Nginx/Vue/Vue 项目的配置文件.md",
     "未命名.md",
     "Jenkins/Vue/vue-jenkins.md",
-    "Zabbix",
     "README.md",
     "Nginx/不同项目的nginx配置文件.md",
     "2023-12-21.md"

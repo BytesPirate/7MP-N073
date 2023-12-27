@@ -1,4 +1,3 @@
-
 ## nginx location 配置
 
 ### 基本配置
@@ -26,4 +25,4 @@ server {
 location ^~ /uploads {
     alias /data/uploads;   
 }
-	```
+``` ^0ccf34

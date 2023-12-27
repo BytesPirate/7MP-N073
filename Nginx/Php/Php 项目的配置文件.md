@@ -1,4 +1,3 @@
-
 ## nginx location
 
 ### 基本配置
